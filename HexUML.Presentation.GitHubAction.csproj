@@ -9,12 +9,12 @@
         <PackageReference Include="CommandLineParser" Version="2.8.0" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="HexUML.Presentation.CLI" Version="1.0.8"/>
-        <PackageReference Include="HexUML.Parsers.PlantUML" Version="1.0.8"/>
-        <PackageReference Include="HexUML.Parsers.Java" Version="1.0.8"/>
-        <PackageReference Include="HexUML.Generators.CSharp-9.0" Version="1.0.8"/>
-        <PackageReference Include="HexUML.Generators.Java-15" Version="1.0.8"/>
-        <PackageReference Include="HexUML.Generators.PHP-8.0" Version="1.0.8"/>
-        <PackageReference Include="HexUML.Generators.PlantUML" Version="1.0.8"/>
+        <PackageReference Include="HexUML.Presentation.CLI" Version="1.0.9"/>
+        <PackageReference Include="HexUML.Parsers.PlantUML" Version="1.0.9"/>
+        <PackageReference Include="HexUML.Parsers.Java" Version="1.0.9"/>
+        <PackageReference Include="HexUML.Generators.CSharp-9.0" Version="1.0.9"/>
+        <PackageReference Include="HexUML.Generators.Java-15" Version="1.0.9"/>
+        <PackageReference Include="HexUML.Generators.PHP-8.0" Version="1.0.9"/>
+        <PackageReference Include="HexUML.Generators.PlantUML" Version="1.0.9"/>
     </ItemGroup>
 </Project>
