@@ -1,0 +1,31 @@
+name: 'HexUML Github Action'
+description: 'Convert code in your repository to a supported generation format.'
+branding:
+  icon: code
+  color: orange
+inputs:
+  input-path:
+    description: 'Input file(s) to be processed. Can be a dir.'
+    required: true
+  output-path:
+    description: 'Path to output generated files.'
+    required: false
+    default: './output/'
+  parser:
+    description: 'The parser you wish to use.'
+    required: true
+  generator:
+    description: 'The generator you wish to use.'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - '-i'
+    - ${{ inputs.input-path }}
+    - '-o'
+    - ${{ inputs.output-path }}
+    - '-p'
+    - ${{ inputs.parser }}
+    - '-g'
+    - ${{ inputs.generator }}

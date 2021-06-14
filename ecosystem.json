@@ -1,0 +1,1073 @@
+{
+    "isPublic": true,
+    "applicationUserId": "testuser_id_12345",
+    "roles": [
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "references": null,
+            "agents": [],
+            "name": "I Distribution grid",
+            "description": null,
+            "id": "ecosystem1_role1"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "references": null,
+            "agents": [],
+            "name": "Service provider",
+            "description": null,
+            "id": "ecosystem1_role10"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "references": null,
+            "agents": [],
+            "name": "Distribution system operator",
+            "description": null,
+            "id": "ecosystem1_role11"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "references": null,
+            "agents": [],
+            "name": "Electricity retailer",
+            "description": null,
+            "id": "ecosystem1_role12"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "references": null,
+            "agents": [],
+            "name": "Charging control",
+            "description": null,
+            "id": "ecosystem1_role13"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "references": null,
+            "agents": [],
+            "name": "Electricity consumer",
+            "description": null,
+            "id": "ecosystem1_role2"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "references": null,
+            "agents": [],
+            "name": "Electric vehicle user",
+            "description": null,
+            "id": "ecosystem1_role3"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "references": null,
+            "agents": [],
+            "name": "Sub-meter",
+            "description": null,
+            "id": "ecosystem1_role4"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "references": null,
+            "agents": [],
+            "name": "Transmission system operator",
+            "description": null,
+            "id": "ecosystem1_role5"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "references": null,
+            "agents": [],
+            "name": "I Electric vehicle",
+            "description": null,
+            "id": "ecosystem1_role6"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "references": null,
+            "agents": [],
+            "name": "Data collector",
+            "description": null,
+            "id": "ecosystem1_role7"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "references": null,
+            "agents": [],
+            "name": "Meter for consumption",
+            "description": null,
+            "id": "ecosystem1_role8"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "references": null,
+            "agents": [],
+            "name": "I Data Hub",
+            "description": null,
+            "id": "ecosystem1_role9"
+        }
+    ],
+    "agents": [
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "agentType": 2,
+            "roles": [
+                {
+                    "ecosystemId": "ecosystem1",
+                    "valueChainId": null,
+                    "references": null,
+                    "agents": null,
+                    "name": "Charging control",
+                    "description": null,
+                    "id": "ecosystem1_role13"
+                },
+                {
+                    "ecosystemId": "ecosystem1",
+                    "valueChainId": null,
+                    "references": null,
+                    "agents": null,
+                    "name": "Sub-meter",
+                    "description": null,
+                    "id": "ecosystem1_role4"
+                }
+            ],
+            "references": null,
+            "name": "Charging-box",
+            "description": null,
+            "id": "ecosystem1_agent1"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "agentType": 1,
+            "roles": [
+                {
+                    "ecosystemId": "ecosystem1",
+                    "valueChainId": null,
+                    "references": null,
+                    "agents": null,
+                    "name": "Service provider",
+                    "description": null,
+                    "id": "ecosystem1_role10"
+                }
+            ],
+            "references": null,
+            "name": "Charging-box supplier",
+            "description": null,
+            "id": "ecosystem1_agent2"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "agentType": 1,
+            "roles": [
+                {
+                    "ecosystemId": "ecosystem1",
+                    "valueChainId": null,
+                    "references": null,
+                    "agents": null,
+                    "name": "I Data Hub",
+                    "description": null,
+                    "id": "ecosystem1_role9"
+                }
+            ],
+            "references": null,
+            "name": "DataHub",
+            "description": null,
+            "id": "ecosystem1_agent3"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "agentType": 2,
+            "roles": [
+                {
+                    "ecosystemId": "ecosystem1",
+                    "valueChainId": null,
+                    "references": null,
+                    "agents": null,
+                    "name": "I Distribution grid",
+                    "description": null,
+                    "id": "ecosystem1_role1"
+                }
+            ],
+            "references": null,
+            "name": "Distribution grid",
+            "description": null,
+            "id": "ecosystem1_agent4"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "agentType": 1,
+            "roles": [
+                {
+                    "ecosystemId": "ecosystem1",
+                    "valueChainId": null,
+                    "references": null,
+                    "agents": null,
+                    "name": "Electricity consumer",
+                    "description": null,
+                    "id": "ecosystem1_role2"
+                },
+                {
+                    "ecosystemId": "ecosystem1",
+                    "valueChainId": null,
+                    "references": null,
+                    "agents": null,
+                    "name": "Electric vehicle user",
+                    "description": null,
+                    "id": "ecosystem1_role3"
+                },
+                {
+                    "ecosystemId": "ecosystem1",
+                    "valueChainId": null,
+                    "references": null,
+                    "agents": null,
+                    "name": "Meter for consumption",
+                    "description": null,
+                    "id": "ecosystem1_role8"
+                }
+            ],
+            "references": null,
+            "name": "Domestic consumer",
+            "description": null,
+            "id": "ecosystem1_agent5"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "agentType": 1,
+            "roles": [
+                {
+                    "ecosystemId": "ecosystem1",
+                    "valueChainId": null,
+                    "references": null,
+                    "agents": null,
+                    "name": "Distribution system operator",
+                    "description": null,
+                    "id": "ecosystem1_role11"
+                },
+                {
+                    "ecosystemId": "ecosystem1",
+                    "valueChainId": null,
+                    "references": null,
+                    "agents": null,
+                    "name": "Data collector",
+                    "description": null,
+                    "id": "ecosystem1_role7"
+                }
+            ],
+            "references": null,
+            "name": "DSO",
+            "description": null,
+            "id": "ecosystem1_agent6"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "agentType": 2,
+            "roles": [
+                {
+                    "ecosystemId": "ecosystem1",
+                    "valueChainId": null,
+                    "references": null,
+                    "agents": null,
+                    "name": "I Electric vehicle",
+                    "description": null,
+                    "id": "ecosystem1_role6"
+                }
+            ],
+            "references": null,
+            "name": "Electric vehicle",
+            "description": null,
+            "id": "ecosystem1_agent7"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "agentType": 1,
+            "roles": [
+                {
+                    "ecosystemId": "ecosystem1",
+                    "valueChainId": null,
+                    "references": null,
+                    "agents": null,
+                    "name": "Electricity retailer",
+                    "description": null,
+                    "id": "ecosystem1_role12"
+                }
+            ],
+            "references": null,
+            "name": "Electricity supplier",
+            "description": null,
+            "id": "ecosystem1_agent8"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "valueChainId": null,
+            "agentType": 1,
+            "roles": [
+                {
+                    "ecosystemId": "ecosystem1",
+                    "valueChainId": null,
+                    "references": null,
+                    "agents": null,
+                    "name": "Transmission system operator",
+                    "description": null,
+                    "id": "ecosystem1_role5"
+                }
+            ],
+            "references": null,
+            "name": "TSO",
+            "description": null,
+            "id": "ecosystem1_agent9"
+        }
+    ],
+    "valueChains": [],
+    "interactions": [
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role3",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electric vehicle user",
+                "description": null,
+                "id": "ecosystem1_role3"
+            },
+            "interactionTypeId": "4",
+            "interactionType": {
+                "color": "RoyalBlue",
+                "name": "Information (Blue)",
+                "description": "Information is data that has been processed, organized, structured or presented to make it useful in a given context.",
+                "id": "4"
+            },
+            "toId": "ecosystem1_role13",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Charging control",
+                "description": null,
+                "id": "ecosystem1_role13"
+            },
+            "label": "Sends charging decision",
+            "references": null,
+            "id": "ecosystem1_interaction1"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role2",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electricity consumer",
+                "description": null,
+                "id": "ecosystem1_role2"
+            },
+            "interactionTypeId": "5",
+            "interactionType": {
+                "color": "LimeGreen",
+                "name": "Data (Green)",
+                "description": "Data is raw, unorganized measurements and facts that need to be processed to become useful.",
+                "id": "5"
+            },
+            "toId": "ecosystem1_role8",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Meter for consumption",
+                "description": null,
+                "id": "ecosystem1_role8"
+            },
+            "label": "Sends consumption data",
+            "references": null,
+            "id": "ecosystem1_interaction10"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role3",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electric vehicle user",
+                "description": null,
+                "id": "ecosystem1_role3"
+            },
+            "interactionTypeId": "2",
+            "interactionType": {
+                "color": "Gray",
+                "name": "Intangible Value (Gray)",
+                "description": "Intangible value is value created or owned by an individual, company or organization that has no physical form. For example, goodwill of an established business, the value of a trademark, or the ranking of a company or university.",
+                "id": "2"
+            },
+            "toId": "ecosystem1_role6",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electric vehicle",
+                "description": null,
+                "id": "ecosystem1_role6"
+            },
+            "label": "Owns EV",
+            "references": null,
+            "id": "ecosystem1_interaction11"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role4",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Sub-meter",
+                "description": null,
+                "id": "ecosystem1_role4"
+            },
+            "interactionTypeId": "5",
+            "interactionType": {
+                "color": "LimeGreen",
+                "name": "Data (Green)",
+                "description": "Data is raw, unorganized measurements and facts that need to be processed to become useful.",
+                "id": "5"
+            },
+            "toId": "ecosystem1_role10",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Service provider",
+                "description": null,
+                "id": "ecosystem1_role10"
+            },
+            "label": "Sends EV consumption data",
+            "references": null,
+            "id": "ecosystem1_interaction12"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role8",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Meter for consumption",
+                "description": null,
+                "id": "ecosystem1_role8"
+            },
+            "interactionTypeId": "5",
+            "interactionType": {
+                "color": "LimeGreen",
+                "name": "Data (Green)",
+                "description": "Data is raw, unorganized measurements and facts that need to be processed to become useful.",
+                "id": "5"
+            },
+            "toId": "ecosystem1_role11",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Distribution system operator",
+                "description": null,
+                "id": "ecosystem1_role11"
+            },
+            "label": "Sends consumption data",
+            "references": null,
+            "id": "ecosystem1_interaction13"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role3",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electric vehicle user",
+                "description": null,
+                "id": "ecosystem1_role3"
+            },
+            "interactionTypeId": "1",
+            "interactionType": {
+                "color": "Magenta",
+                "name": "Monetary Value (Pink)",
+                "description": "The amount of value an item or service has in relation to if it were sold for cash to a willing buyer.",
+                "id": "1"
+            },
+            "toId": "ecosystem1_role10",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Service provider",
+                "description": null,
+                "id": "ecosystem1_role10"
+            },
+            "label": "Pays subscription fee",
+            "references": null,
+            "id": "ecosystem1_interaction14"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role10",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Service provider",
+                "description": null,
+                "id": "ecosystem1_role10"
+            },
+            "interactionTypeId": "1",
+            "interactionType": {
+                "color": "Magenta",
+                "name": "Monetary Value (Pink)",
+                "description": "The amount of value an item or service has in relation to if it were sold for cash to a willing buyer.",
+                "id": "1"
+            },
+            "toId": "ecosystem1_role3",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electric vehicle user",
+                "description": null,
+                "id": "ecosystem1_role3"
+            },
+            "label": "Pays reimbursement",
+            "references": null,
+            "id": "ecosystem1_interaction15"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role5",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Transmission system operator",
+                "description": null,
+                "id": "ecosystem1_role5"
+            },
+            "interactionTypeId": "4",
+            "interactionType": {
+                "color": "RoyalBlue",
+                "name": "Information (Blue)",
+                "description": "Information is data that has been processed, organized, structured or presented to make it useful in a given context.",
+                "id": "4"
+            },
+            "toId": "ecosystem1_role9",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "I Data Hub",
+                "description": null,
+                "id": "ecosystem1_role9"
+            },
+            "label": "Sends TSO and PSO tariffs",
+            "references": null,
+            "id": "ecosystem1_interaction16"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role13",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Charging control",
+                "description": null,
+                "id": "ecosystem1_role13"
+            },
+            "interactionTypeId": "5",
+            "interactionType": {
+                "color": "LimeGreen",
+                "name": "Data (Green)",
+                "description": "Data is raw, unorganized measurements and facts that need to be processed to become useful.",
+                "id": "5"
+            },
+            "toId": "ecosystem1_role4",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Sub-meter",
+                "description": null,
+                "id": "ecosystem1_role4"
+            },
+            "label": "Sends EV consumption data",
+            "references": null,
+            "id": "ecosystem1_interaction17"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role7",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Data collector",
+                "description": null,
+                "id": "ecosystem1_role7"
+            },
+            "interactionTypeId": "2",
+            "interactionType": {
+                "color": "Gray",
+                "name": "Intangible Value (Gray)",
+                "description": "Intangible value is value created or owned by an individual, company or organization that has no physical form. For example, goodwill of an established business, the value of a trademark, or the ranking of a company or university.",
+                "id": "2"
+            },
+            "toId": "ecosystem1_role8",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Meter for consumption",
+                "description": null,
+                "id": "ecosystem1_role8"
+            },
+            "label": "Operates and maintains",
+            "references": null,
+            "id": "ecosystem1_interaction18"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role13",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Charging control",
+                "description": null,
+                "id": "ecosystem1_role13"
+            },
+            "interactionTypeId": "3",
+            "interactionType": {
+                "color": "DarkOrange",
+                "name": "Goods (Orange)",
+                "description": "The most basic products of an economic system that consist of tangible consumable items (products) and tasks performed by individuals (service).",
+                "id": "3"
+            },
+            "toId": "ecosystem1_role6",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electric vehicle",
+                "description": null,
+                "id": "ecosystem1_role6"
+            },
+            "label": "Transports electricity",
+            "references": null,
+            "id": "ecosystem1_interaction19"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role11",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Distribution system operator",
+                "description": null,
+                "id": "ecosystem1_role11"
+            },
+            "interactionTypeId": "3",
+            "interactionType": {
+                "color": "DarkOrange",
+                "name": "Goods (Orange)",
+                "description": "The most basic products of an economic system that consist of tangible consumable items (products) and tasks performed by individuals (service).",
+                "id": "3"
+            },
+            "toId": "ecosystem1_role13",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Charging control",
+                "description": null,
+                "id": "ecosystem1_role13"
+            },
+            "label": "Transports electricity",
+            "references": null,
+            "id": "ecosystem1_interaction2"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role11",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Distribution system operator",
+                "description": null,
+                "id": "ecosystem1_role11"
+            },
+            "interactionTypeId": "4",
+            "interactionType": {
+                "color": "RoyalBlue",
+                "name": "Information (Blue)",
+                "description": "Information is data that has been processed, organized, structured or presented to make it useful in a given context.",
+                "id": "4"
+            },
+            "toId": "ecosystem1_role9",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "I Data Hub",
+                "description": null,
+                "id": "ecosystem1_role9"
+            },
+            "label": "Sends subscription, fees, and tariffs",
+            "references": null,
+            "id": "ecosystem1_interaction20"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role9",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "I Data Hub",
+                "description": null,
+                "id": "ecosystem1_role9"
+            },
+            "interactionTypeId": "5",
+            "interactionType": {
+                "color": "LimeGreen",
+                "name": "Data (Green)",
+                "description": "Data is raw, unorganized measurements and facts that need to be processed to become useful.",
+                "id": "5"
+            },
+            "toId": "ecosystem1_role12",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electricity retailer",
+                "description": null,
+                "id": "ecosystem1_role12"
+            },
+            "label": "Sends consumption data, TSO and PSO tariffs",
+            "references": null,
+            "id": "ecosystem1_interaction21"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role7",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Data collector",
+                "description": null,
+                "id": "ecosystem1_role7"
+            },
+            "interactionTypeId": "5",
+            "interactionType": {
+                "color": "LimeGreen",
+                "name": "Data (Green)",
+                "description": "Data is raw, unorganized measurements and facts that need to be processed to become useful.",
+                "id": "5"
+            },
+            "toId": "ecosystem1_role9",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "I Data Hub",
+                "description": null,
+                "id": "ecosystem1_role9"
+            },
+            "label": "Sends metered and settlement data",
+            "references": null,
+            "id": "ecosystem1_interaction22"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role12",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electricity retailer",
+                "description": null,
+                "id": "ecosystem1_role12"
+            },
+            "interactionTypeId": "4",
+            "interactionType": {
+                "color": "RoyalBlue",
+                "name": "Information (Blue)",
+                "description": "Information is data that has been processed, organized, structured or presented to make it useful in a given context.",
+                "id": "4"
+            },
+            "toId": "ecosystem1_role9",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "I Data Hub",
+                "description": null,
+                "id": "ecosystem1_role9"
+            },
+            "label": "Sends consumers information update",
+            "references": null,
+            "id": "ecosystem1_interaction3"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role12",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electricity retailer",
+                "description": null,
+                "id": "ecosystem1_role12"
+            },
+            "interactionTypeId": "1",
+            "interactionType": {
+                "color": "Magenta",
+                "name": "Monetary Value (Pink)",
+                "description": "The amount of value an item or service has in relation to if it were sold for cash to a willing buyer.",
+                "id": "1"
+            },
+            "toId": "ecosystem1_role5",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Transmission system operator",
+                "description": null,
+                "id": "ecosystem1_role5"
+            },
+            "label": "Pays transmission network tariffs",
+            "references": null,
+            "id": "ecosystem1_interaction4"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role11",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Distribution system operator",
+                "description": null,
+                "id": "ecosystem1_role11"
+            },
+            "interactionTypeId": "3",
+            "interactionType": {
+                "color": "DarkOrange",
+                "name": "Goods (Orange)",
+                "description": "The most basic products of an economic system that consist of tangible consumable items (products) and tasks performed by individuals (service).",
+                "id": "3"
+            },
+            "toId": "ecosystem1_role2",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electricity consumer",
+                "description": null,
+                "id": "ecosystem1_role2"
+            },
+            "label": "Transports electricity",
+            "references": null,
+            "id": "ecosystem1_interaction5"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role2",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electricity consumer",
+                "description": null,
+                "id": "ecosystem1_role2"
+            },
+            "interactionTypeId": "2",
+            "interactionType": {
+                "color": "Gray",
+                "name": "Intangible Value (Gray)",
+                "description": "Intangible value is value created or owned by an individual, company or organization that has no physical form. For example, goodwill of an established business, the value of a trademark, or the ranking of a company or university.",
+                "id": "2"
+            },
+            "toId": "ecosystem1_role12",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electricity retailer",
+                "description": null,
+                "id": "ecosystem1_role12"
+            },
+            "label": "Has a supply contract with",
+            "references": null,
+            "id": "ecosystem1_interaction6"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role2",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electricity consumer",
+                "description": null,
+                "id": "ecosystem1_role2"
+            },
+            "interactionTypeId": "1",
+            "interactionType": {
+                "color": "Magenta",
+                "name": "Monetary Value (Pink)",
+                "description": "The amount of value an item or service has in relation to if it were sold for cash to a willing buyer.",
+                "id": "1"
+            },
+            "toId": "ecosystem1_role12",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electricity retailer",
+                "description": null,
+                "id": "ecosystem1_role12"
+            },
+            "label": "Pays for costumed electricity, duties, tariffs and transport",
+            "references": null,
+            "id": "ecosystem1_interaction7"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role13",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Charging control",
+                "description": null,
+                "id": "ecosystem1_role13"
+            },
+            "interactionTypeId": "5",
+            "interactionType": {
+                "color": "LimeGreen",
+                "name": "Data (Green)",
+                "description": "Data is raw, unorganized measurements and facts that need to be processed to become useful.",
+                "id": "5"
+            },
+            "toId": "ecosystem1_role8",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Meter for consumption",
+                "description": null,
+                "id": "ecosystem1_role8"
+            },
+            "label": "Sends EV consumption data",
+            "references": null,
+            "id": "ecosystem1_interaction8"
+        },
+        {
+            "ecosystemId": "ecosystem1",
+            "fromId": "ecosystem1_role12",
+            "from": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Electricity retailer",
+                "description": null,
+                "id": "ecosystem1_role12"
+            },
+            "interactionTypeId": "1",
+            "interactionType": {
+                "color": "Magenta",
+                "name": "Monetary Value (Pink)",
+                "description": "The amount of value an item or service has in relation to if it were sold for cash to a willing buyer.",
+                "id": "1"
+            },
+            "toId": "ecosystem1_role11",
+            "to": {
+                "ecosystemId": "ecosystem1",
+                "valueChainId": null,
+                "references": null,
+                "agents": null,
+                "name": "Distribution system operator",
+                "description": null,
+                "id": "ecosystem1_role11"
+            },
+            "label": "Pays distribution network tariffs",
+            "references": null,
+            "id": "ecosystem1_interaction9"
+        }
+    ],
+    "name": "Electric Vehicle Ecosystem",
+    "description": "Electric Vehicle Ecosystem seeded by EFCore",
+    "id": "ecosystem1"
+}
