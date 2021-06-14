@@ -9,11 +9,6 @@
         <PackageReference Include="CommandLineParser" Version="2.8.0" />
     </ItemGroup>
     <ItemGroup>
-        <Content Include="ecosystem.json">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </Content>
-    </ItemGroup>
-    <ItemGroup>
         <PackageReference Include="HexUML.Presentation.CLI" Version="1.0.8"/>
         <PackageReference Include="HexUML.Parsers.PlantUML" Version="1.0.8"/>
         <PackageReference Include="HexUML.Parsers.Java" Version="1.0.8"/>
